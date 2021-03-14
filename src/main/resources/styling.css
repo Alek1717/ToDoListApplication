@@ -1,0 +1,46 @@
+.text-field {
+    -fx-background-color: none;
+    -fx-padding: 0;
+    -fx-font-family: "System";
+    -fx-font-size: 14px;
+}
+
+#categoriesVBox {
+    -fx-background-color: white;
+}
+
+HBox{
+    -fx-border-color: #733af8;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border-radius: 12px;
+
+}
+
+#leftSide {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #f3a12d, #602df6);
+}
+
+#button1{
+    -fx-background-color: black;
+    -fx-text-fill: orange;
+}
+#button2{
+    -fx-background-color: #f1eefd;
+    -fx-text-fill: black;
+    -fx-border-color: #4a4949;
+}
+
+#scrollpane1 .viewport {
+    -fx-background-color: white;
+}
+#scrollpane2 .viewport{
+    -fx-background-color: white;
+}
+#rightSide{
+    -fx-background-color: #f1eefd;
+}
+#ToDosVBox{
+    -fx-background-color: none;
+}
